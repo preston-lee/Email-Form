@@ -1,0 +1,64 @@
+main {
+  padding: 15px 0;
+}
+section {
+  margin-bottom: 100px;
+}
+
+main h2 {
+  margin: 12px 10px;
+  font-size: 24px;
+  font-family: Arial;
+  color: rgb(1, 98, 116);
+  border-bottom: 1px solid lightgrey;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-dbl {
+  flex: 2;
+  margin: 10px
+}
+
+main img {
+  width: 100%;
+  margin-top: 20px;
+}
+.contact-image {
+  border-radius: 10px;
+}
+
+@media all and (min-width: 600px) {
+  section {
+    padding: 0 10%;
+  }
+  .group {
+  flex-direction: row;
+  }
+}
+
+form input,
+form textarea {
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  height: 200px;
+}
+
+form label {
+  display: block;
+  color: darkcyan;
+  font-size: 18px;
+  font-family: Arial;
+}
